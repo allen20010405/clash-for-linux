@@ -1,0 +1,14 @@
+step 1:
+admin@pop-os:~$ git clone https://github.com/wanhebin/clash-for-linux.git
+step 2:
+admin@pop-os:~$ cd clash-for-linux
+step 3:
+admin@pop-os:~/clash-for-linux$ sudo nano .env
+step 4:sudo sh start.sh
+
+
+boot on comand : sudo sh start.sh
+boot off comand : sudo sh shutdown.sh
+restart command : sudo sh restart.sh
+you will have to bee in the clash-for-linux folder for this to work
+you can also use vim, but nano is just overall a better word processer.
